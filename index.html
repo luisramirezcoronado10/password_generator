@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    
+    <title>Generador de Contraseñas | ANDHEURIS</title>
+</head>
+<body>
+    <div id='app'>
+       <h3>Genere una contraseña segura</h3>
+       <p>Utilice nuestro generador de contraseñas en línea para crear de forma instantánea una contraseña aletoria y segura.</p>
+        <button class="submit" @click="generatePassword()">generar</button>
+        <h1>{{password_generate}}</h1>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
